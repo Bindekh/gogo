@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.page7{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px 0px;
+    width: 100%;
+}
+.holboos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.hayag{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #101010;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.phone{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.oruulga{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.medias{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #000;
+    border-top: 1px solid #cecece;
+    padding-top: 30px;
+}
+.media_pics{
+    display: flex;
+    gap: 10px;
+
+}
+

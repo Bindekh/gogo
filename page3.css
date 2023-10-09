@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.page3{
+    display: flex;
+    background-color: #fff;
+    padding-top: 40px;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+.bagana1{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #888888;
+    width: 67%;
+    border-right: 1px solid #f2f2f2;
+}
+.unuudur_head{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    
+}
+
+
+.unuudur{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.article_date{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.zuraasuud{
+    width: 90%;
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.tseguud{
+}
+
+.zuraas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shugam{
+    width: 100%;
+    height: 7px;
+    background-color: #407CE8;
+}
+
+.page3-1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 70px;
+}
+.medeenuud{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-right: 70px;
+    height: fiz con;
+}
+.medeenuud h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+
+}
+.parenthuvi{
+    width: 35%;
+    overflow: hidden;
+    position: relative; 
+}
+.huvizurag{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 2;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bichver{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.chiguud{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.chig1{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.chig2{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.chig3{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.page3-2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+.hoyrldogzurag{
+   width: 67%;
+    
+}
+
+.page3-3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.page3-4{
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+.tovch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 66px;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    background-color: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    border-radius: 5px;
+    gap: 5px;
+}
+ .bagana2{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #888888;
+    width: 33%;
+ }
+ .bagana2 header{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: black;
+ }
+.section1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+ .news{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .news_texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .first{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+ }
+ .news_tags{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tag0{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.tag2{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.tag3{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.bichver p{
+    overflow: hidden;
+    height: 32px;
+    text-overflow: ellipsis;
+}
+
+
+.news_image{ 
+    width: 100%;
+    position: relative;
+}
+
+
+.news_image img{
+    width: 100%;
+    aspect-ratio: 3 / 2 ;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.appbichver2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    opacity: 0;
+    top: 0%;
+    left: 0%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.news_image:hover .appbichver2 {
+    opacity: 1;
+    transition-duration: 300ms;
+}
+
+.appbichver {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    opacity: 0;
+    top: 0%;
+    left: 0%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.parenthuvi:hover .appbichver {
+    opacity: 1;
+    transition-duration: 300ms;
+
+}
+
+.medeenuud:hover .huvizurag{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+    border-radius: 5px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    background-color: rgb(246, 246, 238);
+}
+.trending_news{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.numbered_articles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.dugaarud{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6c6c6c;
+    
+}
+.hover-dugaar{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+
+
+}
+.number{
+    font-size: 46px;
+    font-weight: 700;
+    color: #e00034;
+}
+.typos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    color: #000;
+}
+.gurvuud{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.g1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 12px;
+}
+.g2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 12px;
+}
+.g3{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 12px;
+}
+ 
+
+.dugaarud:hover .hover-dugaar{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+    color: #888888;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .container {
+        width: 100%;
+    }
+}
